@@ -1,4 +1,4 @@
-package com.comptask.userManagement.configGmail;
+package com.comptask.userManagement.config;
 
 import org.apache.logging.log4j.util.StringBuilders;
 

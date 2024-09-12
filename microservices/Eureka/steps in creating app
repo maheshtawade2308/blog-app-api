@@ -1,0 +1,15 @@
+steps to creating the flight booking app
+- created a eureka server with eureka server dependency
+	-@EnableEurekaServer in main
+- created flight service with eureka client dependecy
+	-@EnableDiscoveryClient in main
+	-for cloud config additional cloudconfig dependency added
+- created a configserver with dependencies
+	-config server
+	-eureka client
+	-@EnableDiscoveryClient
+	-@EnableConfigServer
+	- added the resources plugin
+	-created common-config folder in resources and seperate application.properties
+
+	

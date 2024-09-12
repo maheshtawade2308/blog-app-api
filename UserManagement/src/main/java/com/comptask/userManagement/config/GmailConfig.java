@@ -1,4 +1,4 @@
-package com.comptask.userManagement.configGmail;
+package com.comptask.userManagement.config;
 
 import java.util.Properties;
 
